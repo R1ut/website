@@ -1,0 +1,34 @@
+#Main{
+    width: 700px;
+}
+body {
+    text-align: left;
+    font-family: arial;
+    background-color: orange;
+    color: black;
+}
+button {
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+
+}
+#bag {
+  border: 5px solid black;
+  border-radius:20px;  
+}
+#shoes {
+  border: 5px solid black;
+  border-radius:20px; 
+  width: 200px; 
+}
+#topic{
+    color: black;
+    transition: color 0.3 ease;
+
+}
+#topic:hover{
+    color: blue;
+}
